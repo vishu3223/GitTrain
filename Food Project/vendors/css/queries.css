@@ -1,0 +1,80 @@
+
+
+
+/* Big tablet from 0 to 1200px*/
+ @media only screen and (max-width: 1200px) {
+    .nero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        
+        padding: 0 2%;
+    }
+
+
+}
+
+
+/*small tablet to big tablet: from 768 px to 1023px*/
+ @media only screen and (max-width: 1023px) {
+    long-copy{
+        width: 80%;
+        margin-left:10% ;
+    }
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .stpes-box{margin-top: 10px;}
+    .works-stpes{margin-bottom: 10px;}
+    .works-stpes:last-of-type{margin-bottom: 50px;}
+    .app-img{
+        width: 150px;
+    }
+    .city-feature{
+        font-size: 80%;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+        font-size: 200%;
+    }.contact-form{
+        width: 100%;
+    }
+
+}
+
+/*small phone to small tablets from 480px to 767px*/
+ @media only screen and (max-width: 767px) {
+    body{
+        font-size: 14px;
+    }
+    section{
+        padding: 40px 0;
+    }
+    .row, .hero-text-box{
+        padding: 0 5%;
+    }.column{
+        width: 100%;
+        float: none;
+        margin:0 0 4% 0
+    }.main-nav{
+        display: none;}
+        
+    .app-screen{width: 40%}
+    .works-stpes:first-child{text-align: center;}
+    .works-stpes div{height: 45px; width: 45px; font-size: 120%; margin-right: 15px;}
+    .works-stpes{margin-bottom: 30px;}
+    .works-stpes:last-of-type{margin-bottom: 20px;}
+
+}
+
+/*small phone from 0 to 480px*/
+ @media only screen and (max-width: 480px) {
+
+}
